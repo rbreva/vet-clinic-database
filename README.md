@@ -15,12 +15,19 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 
-## Author
+## Authors
+
 👤 **R Mauricio Mendoza H**
 
 - GitHub: [GitHub](https://github.com/rbreva)
 - Behance: [Behance](https://www.behance.net/rbreva)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/r-mauricio-mendoza-huerta-0782a9166/)
+
+👤 **Justo Rago**
+
+- GitHub: [@githubhandle](https://github.com/asdt560)
+- Twitter: [@twitterhandle](https://twitter.com/JustoRago)
+- LinkedIn: [LinkedIn]( www.linkedin.com/in/justo-rago-0714b5208)
 
 <br>
 

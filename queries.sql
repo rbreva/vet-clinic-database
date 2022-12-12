@@ -129,3 +129,12 @@ SELECT COUNT(*) FROM visits JOIN animals ON animals.id = animals_id JOIN vets ON
 
 /*What specialty should Maisy Smith consider getting? Look for the species she gets the most.*/
 SELECT species.name FROM visits JOIN animals ON animals.id = animals_id JOIN vets ON vets.id = vets_id JOIN species ON species.id = species_id WHERE vets.name = 'Maisy Smith' GROUP BY species.name ORDER BY COUNT(species.name) DESC LIMIT 1;
+
+
+/*---- ------*/
+
+explain analyze SELECT COUNT(*) FROM visits where animals_id = 4;
+explain analyze SELECT * FROM visits where vets_id = 2;
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+
